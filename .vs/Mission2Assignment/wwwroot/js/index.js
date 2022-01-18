@@ -4,6 +4,7 @@
 	var qzPct = parseInt($("#quizzes").val());
 	var exPct = parseInt($("#exams").val());
 	var inPct = parseInt($("#intex").val());
+	var test = parseInt($("#assignments").val());
 	var totalPct = (.55 * asnPct) + (.05 * gpPct) + (.1 * qzPct) + (.2 * exPct) + (.1 * inPct);
 	var grade = "";
 	if (totalPct >= 94) {
